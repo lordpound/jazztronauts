@@ -694,6 +694,7 @@ function SWEP:ShootEffects()
 	owner:MuzzleFlash()
 	owner:SetAnimation( PLAYER_ATTACK1 )
 
+	
 end
 
 function SWEP:Reload() return false end
